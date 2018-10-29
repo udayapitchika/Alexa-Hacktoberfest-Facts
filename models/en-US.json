@@ -1,0 +1,43 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "hacktoberfest facts",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "GetNewFactIntent",
+          "samples": [
+            "a fact",
+            "a hacktoberfest fact",
+            "tell me a fact",
+            "tell me a hacktoberfest fact",
+            "give me a fact",
+            "give me trivia",
+            "give me some information",
+            "tell me something",
+            "give me something"
+          ]
+        }
+      ]
+    }
+  }
+}

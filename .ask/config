@@ -1,0 +1,40 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.70678702-d80d-42c8-9b72-277597c71dcb",
+      "was_cloned": false,
+      "resources": {
+        "manifest": {
+          "eTag": "201f4540e70e1ad9390a6a0639277311"
+        },
+        "interactionModel": {
+          "en-US": {
+            "eTag": "be35837fafd030d760b1916992bd832e"
+          }
+        },
+        "lambda": [
+          {
+            "arn": "arn:aws:lambda:us-east-1:170038988601:function:hacktoberfest-fact",
+            "awsRegion": "us-east-1",
+            "functionName": "arn:aws:lambda:us-east-1:170038988601:function:hacktoberfest-fact",
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "revisionId": "e5c2acc5-2611-458d-b69e-8ae3027d1d42"
+          }
+        ]
+      },
+      "merge": {
+        "manifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "arn:aws:lambda:us-east-1:170038988601:function:hacktoberfest-fact"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
